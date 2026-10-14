@@ -1,4 +1,4 @@
 function printText(text, align) {
-    console.log(text);
+	console.log(text)
 }
-printText('Hello!', 'center');
+printText("Hello!", "center")

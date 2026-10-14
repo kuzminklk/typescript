@@ -1,6 +1,5 @@
-
-function printText(text: string, align: 'center' | 'left' | 'right') {
-    console.log(text);
+function printText(text: string, align: "center" | "left" | "right") {
+	console.log(text)
 }
 
-printText('Hello!', 'center');
+printText("Hello!", "center")

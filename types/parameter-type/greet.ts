@@ -1,6 +1,5 @@
-
 function greet(person: string, date: Date) {
-    console.log(`Hello ${person}, today is ${date.toDateString()!}`)
+	console.log(`Hello ${person}, today is ${date.toDateString()!}`)
 }
 
-greet('Mad', new Date());
+greet("Mad", new Date())

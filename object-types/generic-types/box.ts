@@ -1,13 +1,11 @@
-
 interface Box<Type> {
-    content: Type;
+	content: Type
 }
 
 let box: Box<string> = {
-    content: "Hello!",
-};
-
+	content: "Hello!",
+}
 
 function setContent<Type>(box: Box<Type>, newContents: Type) {
-  box.content = newContents;
+	box.content = newContents
 }

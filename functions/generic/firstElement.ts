@@ -1,4 +1,3 @@
-
 function firstElement<Type>(arr: Type[]): Type | undefined {
-    return arr[0];
+	return arr[0]
 }

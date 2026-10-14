@@ -1,8 +1,8 @@
-"use strict";
+"use strict"
 function greeter(fn) {
-    fn('Hello, world!');
+	fn("Hello, world!")
 }
 function printToConsole(s) {
-    console.log(s);
+	console.log(s)
 }
-greeter(printToConsole);
+greeter(printToConsole)
